@@ -5,14 +5,14 @@ export class Login extends Component {
     render() {
         return (
             <div className="login">
-                <div class="containerLoging">
+                <div className="containerLoging">
                 
-                <section class="container">
-                <img width="200px" src={logo}/>
-                <input class="inputlogIn" type="email"    id="email" placeholder="E-mail"/> <br/>
-                <input class="inputlogIn" type="password" id="password" placeholder="Contraseña"/> <br/>
-                <button className="btn btn-dark"> ENTRAR </button> 
-                <h4> Registrate AQUÍ</h4>
+                <section className="container">
+                <img alt="Media Luna" width="200px" src={logo}/>
+                <input className="inputlogIn" type="email"    id="email" placeholder="E-mail"/> <br/>
+                <input className="inputlogIn" type="password" id="password" placeholder="Contraseña"/> <br/>
+                <button className="btn btn-dark"> ENTRAR </button> <br/>
+                <h4> Registrate <a href="/registro"> AQUÍ </a> </h4>
                 </section>
                    
 
