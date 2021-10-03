@@ -7,7 +7,7 @@ function singUp () {
     const auth = getAuth();
     const email = document.getElementById('email').value
     const password = document.getElementById('password').value
-    console.log ('estou tocado')
+    console.log ('estoy tocado')
    createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in

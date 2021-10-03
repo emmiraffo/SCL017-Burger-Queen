@@ -1,0 +1,99 @@
+{
+    "principal": [
+    {
+    "id": 1,
+    "name": "Burguer Luna",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Farepa.gif?alt=media&token=a03b0ef1-94ee-44ce-869e-6237b60b2de6",
+    "price": 2000
+    },
+    {
+    "id": 2,
+    "name": "Pan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Farepa.gif?alt=media&token=a03b0ef1-94ee-44ce-869e-6237b60b2de6",
+    "price": 2000
+    },
+    {
+    "id": 3,
+    "name": "Papas Fritas Grandes",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fpapas.png?alt=media&token=29c9d1c1-3123-44b0-a2c5-7b809b44d83c",
+    "price": 5000
+    },
+    {
+    "id": 4,
+    "name": "Papas Fritas Medianas",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fpapas.png?alt=media&token=29c9d1c1-3123-44b0-a2c5-7b809b44d83c",
+    "price": 3000
+    }
+],
+    
+"helados": [
+    {
+    "id": 7,
+    "name": "Helado de Vainilla",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "price": 2000
+    },
+    {
+    "id": 8,
+    "name": "Helado de Chocolate",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "price": 2000
+    },
+    {
+    "id": 9,
+    "name": "Helado de Ron Pasas",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "price": 2000
+    },
+    {
+    "id": 10,
+    "name": "Helado de Fresa",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "price": 2000
+    },
+    {
+    "id": 11,
+    "name": "Helado de Pie de Limón",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "price": 2000
+    },
+    {
+    "id": 12,
+    "name": "Maracuyá",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "price": 2000
+    }   
+],
+"bebidas": [
+    {
+    "id": 17,
+    "name": "Limonada",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fjugos.jpg?alt=media&token=18fbcc6d-ca49-4efd-b72f-6a01ccfca1a5",
+    "price": 4000
+    },
+    {
+    "id": 18,
+    "name": "Jugo de Fresa",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fjugos.jpg?alt=media&token=18fbcc6d-ca49-4efd-b72f-6a01ccfca1a5",
+    "price": 4000
+    },
+    {
+    "id": 19,
+    "name": "Agua",
+    "image": "",
+    "price": 1200
+    },
+    {
+    "id": 23,
+    "name": "Cortado",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fcafe.jpg?alt=media&token=e3aced5d-dfc4-44f7-90f1-9c170c6ea0af",
+    "price": 3500
+    },
+    {
+    "id": 24,
+    "name": "Americano",
+    "image": "",
+    "price": 2500
+    }
+]
+}
