@@ -11,7 +11,7 @@ function CardMenu (props) {
     
     for (let categoria in menu) {
         const cards = menu[categoria].map((item) =>{
-            return <Card item={item} addToCart={addToCart} />
+            return <Card item={item} addToCart={addToCart} removeFromCart={removeFromCart} />
         })
         listCards.push(<Fragment>
             <h1>{categoria}</h1>

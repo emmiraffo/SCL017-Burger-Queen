@@ -7,7 +7,7 @@ import menu from '../menu.json'
 
 function Menu () {
     const [state, setState] = useState({'products': {} })
-
+    console.log(state)
 
     const addToCart = (item) => {
         if (item.id in state.products ) {
@@ -20,12 +20,23 @@ function Menu () {
                'quantity':1
            }
         }
+        setState(state)
         console.log(state)
     }
 
-    const removeFromCart = () => {
-
+    const removeFromCart = (item) => {
+        const { products } = state
+        if (item.id in products ) {
+            if ( products[item.id].quantity > 1 ) { 
+                products[item.id].quantity = products[item.id].quantity -1
+            } else {
+                delete products[item.id]
+            }
+            setState(state)
+        } 
+        console.log(state)
     }
+
 
     return <Fragment>
         <HeaderMenu />
