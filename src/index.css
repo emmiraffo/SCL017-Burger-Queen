@@ -59,6 +59,10 @@ margin-bottom: 100px;
   overflow: hidden;
   position: fixed;
   z-index: 2;
+  background-color: rgb(78, 34, 7);
+}
+.navbar-light a {
+  color: aliceblue;
 }
 
 .form-select{
@@ -84,17 +88,16 @@ i {
   color: aliceblue;
 }
 
-.btnCard {
-  border-radius: 150px;
-  background-color: rgb(47, 195, 28);
-  border-color: rgb(108, 192, 24);
+.quantity{
+  font-size: 30px;
 }
 
-.btnRemove {
-  border-radius: 150px;
-  background-color: rgba(241, 18, 18, 0.938);
-  border-color: rgb(189, 5, 5);
+.btnCart{
+  border-color: rgba(255, 0, 0, 0);
+  color: rgb(78, 34, 7);
+  font-size: 30px;
 }
+
 
 .show{
   display: block;

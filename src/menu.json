@@ -3,25 +3,25 @@
     {
     "id": 1,
     "name": "Arepa-Burguer",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Farepa.gif?alt=media&token=a03b0ef1-94ee-44ce-869e-6237b60b2de6",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F4.png?alt=media&token=0e37d160-3eb1-4b83-a5af-8a9c355e82b9",
     "price": 6500
     },
     {
     "id": 2,
     "name": "Burguer Luna LLena",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2FlunaBurger.jpg?alt=media&token=6934790c-7d57-4cd2-a8f7-927e435a7625",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F1.png?alt=media&token=13ca3ea9-150c-4e82-9a72-28b0921c3b5d",
     "price": 7500
     },
     {
     "id": 3,
-    "name": "Papas Fritas Grandes",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fpapas.png?alt=media&token=29c9d1c1-3123-44b0-a2c5-7b809b44d83c",
+    "name": "Pizza Jamón Serrano",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F2.png?alt=media&token=4bd2eae7-325d-4def-8f9c-1c1f047f94a1",
     "price": 5000
     },
     {
     "id": 4,
     "name": "Papas Fritas Medianas",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fpapas.png?alt=media&token=29c9d1c1-3123-44b0-a2c5-7b809b44d83c",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F3.png?alt=media&token=e7e17293-f7cc-4482-816f-460e3aa7601d",
     "price": 3000
     }
 ],
@@ -29,32 +29,26 @@
 "Postres": [
     {
     "id":5,
-    "name": "Helado de Vainilla",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "name": "Helado de Fresa",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F6.png?alt=media&token=3a6fcc1e-b9e5-42aa-84c4-b1f05c4a6050",
     "price": 2000
     },
     {
     "id": 6,
     "name": "Helado de Chocolate",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F5.png?alt=media&token=d8b0b290-ed69-4ce3-b5f1-db9acf3581f6",
     "price": 2000
     },
     {
     "id": 7,
-    "name": "Helado de Fresa Italiana",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fhelado.jpg?alt=media&token=45f05523-0c4a-4355-bac2-d7b528e262df",
-    "price": 2000
-    },
-    {
-    "id": 8,
-    "name": "Pie de Limón",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2FpieLimonm.png?alt=media&token=65da7294-831f-441c-b66c-c4476b771322",
+    "name": "Muffin de Chocolate",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F10.png?alt=media&token=59bc5cee-2164-4cee-843a-fa617aa8048c",
     "price": 2000
     },
     {
     "id": 9,
-    "name": "Torta Bomba de Chocolate",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Ftorta.jpg?alt=media&token=3fe30959-8dde-4b3c-b955-c24a613a357a",
+    "name": "Torta Fresa",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F9.png?alt=media&token=25b569d0-dc2d-475c-9f32-f93367e215ca",
     "price": 2000
     }   
 ],
@@ -62,31 +56,37 @@
     {
     "id": 10,
     "name": "Limonada",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Flimonada.jpg?alt=media&token=a7307b2c-a201-42dc-bde5-457b0dcffa23",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F14.png?alt=media&token=ad3d18c5-bc7d-4cb1-bfac-08f39f318071",
     "price": 4000
     },
     {
     "id": 11,
     "name": "Batido de Fresa",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Ffresa.jpg?alt=media&token=1d0c8416-5f6a-4a94-9800-cab0911183cf",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F12.png?alt=media&token=03383281-24fb-47bb-b486-067b11f0c657",
     "price": 4000
     },
     {
     "id": 12,
-    "name": "Cortado",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fcafe.jpg?alt=media&token=e3aced5d-dfc4-44f7-90f1-9c170c6ea0af",
-    "price": 3500
+    "name": "Batido de Chocolate",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F13.png?alt=media&token=eddc772e-5a16-43ee-9527-d48451561efc",
+    "price": 4000
     },
     {
     "id": 13,
-    "name": "Americano",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Famericano.jpg?alt=media&token=250e193c-4210-4f41-9354-a3e80564c15c",
-    "price": 2500
+    "name": "Cortado",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F8.png?alt=media&token=fba5f1b5-9a9e-4cee-8121-e985f04ce291",
+    "price": 3500
     },
     {
     "id": 14,
+    "name": "Americano",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F7.png?alt=media&token=6843c917-04a8-4476-a775-3c998a60f679",
+    "price": 2500
+    },
+    {
+    "id": 15,
     "name": "Agua",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fagua.png?alt=media&token=ca6b7120-a700-4a05-ac4f-374cf0b317f2",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F15.png?alt=media&token=c2f4d246-9d0a-412a-88b9-866fcaee5300",
     "price": 1200
     }
 ]

@@ -2,26 +2,25 @@ import React , { useState, Fragment} from 'react'
 import CardMenu from './CardMenu'
 import Basket from './Basket'
 import HeaderMenu from './HeaderMenu'
-import menu from '../menu.json'
 
 
 function Menu () {
-    const [state, setState] = useState({'products': {} })
-    console.log(state)
+    var initialState = {'products': {} }
+    const [state, setState] = useState(initialState)
 
     const addToCart = (item) => {
         if (item.id in state.products ) {
-            // segunda en adelante
-            state.products[item.id].quantity = state.products[item.id].quantity + 1
+            //2da vez en adelante
+            let updateState = {...state.products}
+            updateState[item.id].quantity = updateState[item.id].quantity + 1
+            setState({'products': {...state.products, ...updateState}})
         } else {
             //Primera vez
-           state.products[item.id] = {
-               'item': item,
-               'quantity':1
-           }
+            let newProduct = {}
+            newProduct[item.id] = {'item': {...item},'quantity':1 }
+            setState({'products': {...state.products, ...newProduct }})
         }
-        setState(state)
-        console.log(state)
+        
     }
 
     const removeFromCart = (item) => {
@@ -32,7 +31,7 @@ function Menu () {
             } else {
                 delete products[item.id]
             }
-            setState(state)
+            setState({'products': {...products}})
         } 
         console.log(state)
     }
@@ -40,7 +39,7 @@ function Menu () {
 
     return <Fragment>
         <HeaderMenu />
-        <CardMenu addToCart={addToCart} removeFromCart={removeFromCart} /> 
+        <CardMenu addToCart={addToCart} removeFromCart={removeFromCart} products={state.products} /> 
         <Basket  /> <br/><br/><br/><br/><br/><br/>
        
     </Fragment>

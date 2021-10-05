@@ -7,16 +7,19 @@ import Card from './Card';
 
 function CardMenu (props) {
     var listCards = []
-    const { addToCart, removeFromCart } = props
-    
+    const { addToCart, removeFromCart, products } = props
     for (let categoria in menu) {
         const cards = menu[categoria].map((item) =>{
-            return <Card item={item} addToCart={addToCart} removeFromCart={removeFromCart} />
+            let quantity = 0
+            let {id} = item
+            if (products.hasOwnProperty(id)) {
+                quantity = products[id].quantity
+            }
+            return <Card item={item} addToCart={addToCart} removeFromCart={removeFromCart} quantity={quantity} />
         })
         listCards.push(<Fragment>
             <h1>{categoria}</h1>
             {cards}
-            
         </Fragment>);
     }
 
