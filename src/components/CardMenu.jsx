@@ -16,6 +16,7 @@ function CardMenu (props) {
                 quantity = products[id].quantity
             }
             return <Card item={item} addToCart={addToCart} removeFromCart={removeFromCart} quantity={quantity} />
+            
         })
         listCards.push(<Fragment>
             <h1>{categoria}</h1>
@@ -25,7 +26,7 @@ function CardMenu (props) {
 
     return <Fragment>
         {listCards}
-        <a className="btn btn-success">Ver Pedido</a>
+        <a href="/resumen" className="btn btn-success">Ver Pedido</a>
     </Fragment>
 }
 export default CardMenu

@@ -9,13 +9,13 @@
     {
     "id": 2,
     "name": "Burguer Luna LLena",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F1.png?alt=media&token=13ca3ea9-150c-4e82-9a72-28b0921c3b5d",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F1.png?alt=media&token=58bd555e-706e-4a7c-ba41-c63b1d2ec6e6",
     "price": 7500
     },
     {
     "id": 3,
     "name": "Pizza Jamón Serrano",
-    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F2.png?alt=media&token=4bd2eae7-325d-4def-8f9c-1c1f047f94a1",
+    "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F2.png?alt=media&token=3f23e43f-70a1-4da4-bda5-8bb9bee09315",
     "price": 5000
     },
     {
@@ -85,7 +85,7 @@
     },
     {
     "id": 15,
-    "name": "Agua",
+    "name": "Agua 350 mL",
     "image": "https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2F15.png?alt=media&token=c2f4d246-9d0a-412a-88b9-866fcaee5300",
     "price": 1200
     }

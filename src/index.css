@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+
 .login {
   background-image: url(/src/images/fondo.jpg);
   position: fixed;
@@ -41,6 +42,25 @@ code {
   align-items: center;
 }
 
+/* BIENVENIDA */
+.selectUser{
+  margin-top: 250px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  position: fixed;
+}
+
+.display-5{
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+
 /* SECCIÓN DE MENU */
 .menuBody{
 display: flex;
@@ -53,7 +73,7 @@ margin-bottom: 100px;
   width: 100vw;
   height: 7vh;
   display: grid;
-  grid-template-columns: 33% 34% 33% ;
+  grid-template-columns: 5% 32% 32% 32% ;
   grid-template-rows: 100%;
   text-align: center;  
   overflow: hidden;
@@ -104,4 +124,21 @@ i {
 }
 
 
+/* BASKET */
 
+.box{
+  display: grid;
+  grid-template-columns: 40% 20% 40% ;
+  width: 80vw;
+  text-align: center; 
+  margin-top: 5px;
+}
+.montoResumen{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  width: 30vw;
+  text-align:left; 
+  margin-top: 5px;
+  margin-left: 200px;
+  border-top: black;
+}

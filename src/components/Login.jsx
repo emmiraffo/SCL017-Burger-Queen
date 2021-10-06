@@ -7,7 +7,7 @@ export class Login extends Component {
             <div className="login">
                 <div className="containerLoging">
                 <section className="container">
-                <img alt="Media Luna" width="200px" src="https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Flogo.png?alt=media&token=997828fe-dcce-49b6-8013-7abb774c2895"/>
+                <img alt="Media Luna" width="200px" src="https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Flogo.png?alt=media&token=cdca3135-1b44-4ab9-a69c-2329da2919cc"/>
                 <input className="inputlogIn" type="email"    id="email" placeholder="E-mail"/> <br/>
                 <input className="inputlogIn" type="password" id="password" placeholder="Contraseña"/> <br/>
                 <button className="btn btn-dark"> ENTRAR </button> <br/>
