@@ -1,5 +1,5 @@
 import React from 'react'
-import singUp  from '../auth'
+import {singUp}  from '../auth'
 
 
 function SingIn  () {

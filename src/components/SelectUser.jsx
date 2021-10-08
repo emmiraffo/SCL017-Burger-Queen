@@ -1,9 +1,9 @@
 import React  from 'react';
-
-
+import {out}  from '../auth'
+  
 function SelectUser (){
         return <div className="selectUser" >
-
+          <a onClick={out}> <i class="fa fa-power-off" aria-hidden="true"></i></a>
 <div className="row row-cols-1 row-cols-md-2 g-4">
 <a href="#">                
   <div className="col">
@@ -21,12 +21,6 @@ function SelectUser (){
     </div>
   </div>
 </a>
-
-
-
-
-
-
 
 </div>
 

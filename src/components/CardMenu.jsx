@@ -26,7 +26,7 @@ function CardMenu (props) {
 
     return <Fragment>
         {listCards}
-        <a href="/resumen" className="btn btn-success">Ver Pedido</a>
+        
     </Fragment>
 }
 export default CardMenu

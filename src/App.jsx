@@ -2,16 +2,13 @@ import React , {useState}from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  link
+  Route
 } from 'react-router-dom';
 import Login from './components/Login';
 import Menu from './components/Menu';
 import OrderSend from './components/OrderSend';
 import SelectUser from './components/SelectUser';
 import SingIn from './components/SingIn';
-
-import menu from './menu.json'
 
 
 function App() {

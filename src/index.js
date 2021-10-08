@@ -4,6 +4,7 @@ import './index.css';
 import App from './App.jsx';
 import { initializeApp } from 'firebase/app';
 
+
 const firebaseConfig = {
     apiKey: "AIzaSyCdyCUiGGldUtUcnOGm7aMvkuLXnLG61k0",
     authDomain: "burger-queen-laboratoria-65e32.firebaseapp.com",

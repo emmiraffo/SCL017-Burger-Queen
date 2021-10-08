@@ -103,10 +103,6 @@ margin-bottom: 100px;
 margin-left:120px;
 }
 
-i {
-  font-size: 30px;
-  color: aliceblue;
-}
 
 .quantity{
   font-size: 30px;
@@ -118,10 +114,13 @@ i {
   font-size: 30px;
 }
 
+.btn-success{
+  margin-bottom: 100px;
+  background-color: rgb(96, 192, 0);
+  border-color: rgb(105, 206, 5);
 
-.show{
-  display: block;
 }
+
 
 
 /* BASKET */
@@ -141,4 +140,9 @@ i {
   margin-top: 5px;
   margin-left: 200px;
   border-top: black;
+}
+.form-floating{
+  margin-top: 5%;
+  width: 400px;
+  height: 200px;
 }
