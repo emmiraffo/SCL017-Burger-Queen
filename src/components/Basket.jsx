@@ -1,11 +1,11 @@
-import React , { Fragment} from 'react'
+import React , {useState, Fragment} from 'react'
 import {subirOrden} from '../order'
 
 
 
  function Basket(props) {
-    const { addToCart, removeFromCart, products , table } = props
-    console.log("ESTOY EN BASKET",products , table)
+    const { addToCart, removeFromCart, products, table } = props
+    console.log("ESTOY EN BASKET", products, table)
 
     var resumen = []
     if (Object.keys(products).length > 0 ) {
@@ -41,14 +41,12 @@ import {subirOrden} from '../order'
   var total = subTotal + impuesto
 
 
+// CAMBIO DE ESTADO DEL COMENTARIO
+  const [comentario, setComentario] = useState("")
 
-    const crearPedido = () => {
-       /* if ( table.length === 0  ){
-            alert('Selecciona una mesa');
-        } 
-        return subirOrden (mesa,  comentario , products)*/
-  }
+// ORDENO LOS DATOS QUE VOY A PASAR A FIREBASE
 
+  
     
     return <Fragment>
         {resumen}
@@ -66,10 +64,11 @@ import {subirOrden} from '../order'
             <span id="total">${total}</span> 
         </div> </div>}
         <div className="form-floating">
-            <textarea id="comentario" className="form-control" placeholder="Deja tu comentario aquí" id="floatingTextarea"></textarea>
+            <textarea id="comentario" className="form-control" placeholder="Deja tu comentario aquí"   onKeyUp={(e) => setComentario(e.target.value)} ></textarea>
             <label for="floatingTextarea">Comentario</label>
-        </div>
-        <a onClick={(e)=> {crearPedido()}} className="btn btn-success"> ENVIAR PEDIDO </a>
+        </div> 
+        <h3>Mesa {table}</h3>
+        <a onClick={(e)=> {subirOrden(table, products, comentario)}} className="btn btn-success"> ENVIAR PEDIDO </a>
     </Fragment>
  }
 

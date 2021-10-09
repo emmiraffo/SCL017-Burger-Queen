@@ -9,12 +9,14 @@ function Menu (props) {
     const { addToCart, removeFromCart, products } = props
     const [state, setState] = useState({
         "showResume":false,
-        "table":0
+        "table": 0
     })
 
     const selectTable = (mesa)=> {
         setState({...state, "table": mesa })
     }
+
+    console.log("STATE EN MENU", state)
 
     return <Fragment>
         <HeaderMenu />
@@ -28,7 +30,7 @@ function Menu (props) {
                 <option id="6" value="6">06</option>
             </select>
         { !state.showResume && <CardMenu addToCart={addToCart} removeFromCart={removeFromCart} products={products} /> }
-        <a className="btn btn-success" onClick={()=>{ setState({'showResume':!state.showResume})}}>Ver Pedido</a>
+        <a className="btn btn-success" onClick={()=>{ setState({...state, 'showResume':!state.showResume})}}>Ver Pedido</a>
         { state.showResume &&  <Basket addToCart={addToCart} removeFromCart={removeFromCart} products={products} table={state.table} />}
         
     </Fragment>
