@@ -3,6 +3,7 @@ import {subirOrden} from '../order'
 
 
 
+
  function Basket(props) {
     const { addToCart, removeFromCart, products, table } = props
     console.log("ESTOY EN BASKET", products, table)
@@ -41,10 +42,8 @@ import {subirOrden} from '../order'
   var total = subTotal + impuesto
 
 
-// CAMBIO DE ESTADO DEL COMENTARIO
-  const [comentario, setComentario] = useState("")
 
-// ORDENO LOS DATOS QUE VOY A PASAR A FIREBASE
+  const [comentario, setComentario] = useState("")
 
   
     
@@ -68,7 +67,7 @@ import {subirOrden} from '../order'
             <label for="floatingTextarea">Comentario</label>
         </div> 
         <h3>Mesa {table}</h3>
-        <a onClick={(e)=> {subirOrden(table, products, comentario)}} className="btn btn-success"> ENVIAR PEDIDO </a>
+        <a onClick={(e)=> {subirOrden(table, products, comentario)}}  className="btn btn-success"> ENVIAR PEDIDO </a>
     </Fragment>
  }
 

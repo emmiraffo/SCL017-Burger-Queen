@@ -1,8 +1,8 @@
-import { collection, addDoc , getFirestore} from "firebase/firestore";
+import { collection, addDoc, getFirestore, getDocs } from "firebase/firestore";
 
 
 
-function subirOrden (mesa,productos, comentario) {
+function subirOrden(mesa, productos, comentario) {
     try {
         const db = getFirestore()
         const docRef = addDoc(collection(db, "pedidos"), {
@@ -10,9 +10,25 @@ function subirOrden (mesa,productos, comentario) {
             productos,
             comentario,
         });
-        console.log("Document written with ID: ", docRef.id);
+        console.log("YA SUBI A FIREBASE ", docRef.id);
+
     } catch (e) {
-        console.error("Error adding document: ", e);
+        console.error("NO PUDE SUBIR A FIREBASE ", e);
+    }
+
+}
+
+
+function obtenerData() {
+    try {
+        const db = getFirestore()
+        const querySnapshot = getDocs(collection(db, "pedidos"));
+        querySnapshot.forEach((doc) => {
+            console.log("la data firebase",`${doc.id} => ${doc.data()}`);
+        });
+
+    } catch (e) {
+        console.error("Error al bajar datos ", e);
     }
 }
 
@@ -22,4 +38,6 @@ function subirOrden (mesa,productos, comentario) {
 
 
 
-export {subirOrden}
+
+
+export { subirOrden , obtenerData }

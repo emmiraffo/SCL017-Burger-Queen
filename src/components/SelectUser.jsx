@@ -5,7 +5,7 @@ function SelectUser (){
         return <div className="selectUser" >
           <a onClick={out}> <i class="fa fa-power-off" aria-hidden="true"></i></a>
 <div className="row row-cols-1 row-cols-md-2 g-4">
-<a href="#">                
+<a href="/cocina">                
   <div className="col">
     <div className="card">
       <img src="https://firebasestorage.googleapis.com/v0/b/burger-queen-laboratoria-65e32.appspot.com/o/menu%2Fcocinero.png?alt=media&token=fe89f2b8-51ec-4987-b7e1-5746a2e5a038" class="card-img-top" alt="..."/>
